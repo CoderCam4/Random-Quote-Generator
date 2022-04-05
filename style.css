@@ -1,0 +1,38 @@
+html {
+    background-image: url("spongebob4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h1 {
+    font-family: verdana, sans-serif;
+}
+
+button { 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: rgba(28, 25, 209, 0);
+    color: pink;
+    margin-bottom: 10px;
+    width: 325px;
+    padding: 10px 24px;
+    font-family: verdana, sans-serif;
+    font-size:1.5em;
+}
+
+button:hover {
+ background-color: rgba(8, 4, 238, 0.925);
+ color: rgba(244, 247, 47, 0.904);
+}
